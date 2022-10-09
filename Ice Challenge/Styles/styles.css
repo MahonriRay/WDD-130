@@ -3,18 +3,33 @@ body {
     text-align: center;
     background-color: violet;
   }
+  main h1:hover {
+    color: black;
+  }
   .quote-para {
     text-align: center;
     display: block;
-    font-size: 1.5em;
+    font-size: 2em;
     margin: 0 auto;
+    max-width: 350px;
+  }
+  .quote {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1em;
+    max-width: 500px;
+  }
+  .name {
+    font-weight: bold;
+    font-size: 1.5em;
   }
   h2 {
     color: black;
     display: block;
     text-align: left;
-    width: 400px;
-    margin: center;
+    width: 450px;
+    margin: 0 auto;
   }
   h3 {
     color: black;
