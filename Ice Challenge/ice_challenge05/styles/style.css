@@ -1,0 +1,36 @@
+#content {
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+body {
+    background-color: gray;
+}
+.titleimage {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+.threeimages {
+    margin-top: 30px; 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.photos {
+    margin: 0 50px;
+    max-width: 20%;
+    max-height: 100%;
+    display: inline;
+    border: 15px solid rgb(57, 57, 57);
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.photos img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 40px;
+}
