@@ -67,7 +67,7 @@ header {
 }
 .book,
 .join {
-  background-color: #0c4166;
+  background-color: #857e7b;
   color: whitesmoke;
   text-align: center;
   color: #fcfbfb;
@@ -79,7 +79,7 @@ header {
 }
 .book:hover,
 .join:hover {
-  background-color: #0c4166;
+  background-color: #fae173;
   color: whitesmoke;
 }
 main section img {
