@@ -7,6 +7,16 @@
 header {
   border: 2px solid #ffffff;
 }
+#river_title {
+  display: grid;
+  margin: auto 0;
+  justify-items: center;
+}
+#river_title h1 {
+  font-size: 64px;
+  color: #ffffff;
+  text-shadow: 2px 2px black;
+}
 .home-grid{
   background-color: #0c4166;
   margin: 0 auto;
