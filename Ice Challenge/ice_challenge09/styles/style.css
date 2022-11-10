@@ -1,0 +1,24 @@
+body {
+    margin: 0 auto;
+    width: 300px;
+    display: grid;
+}
+#main_text {
+    display: grid;
+    justify-items: center;
+}
+#bot_banner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+}
+.bottom_left p {
+    grid-row: 2/3;
+}
+.bottom_middle p {
+    grid-row: 2/3;
+}
+.bottom_right p {
+    grid-row: 2/3;
+}

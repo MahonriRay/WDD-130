@@ -174,6 +174,98 @@ main section img {
   font-size: 0.8em;
   padding-bottom: 15px;
 }
+/* Begin Page 2 River CSS */
+#river_title {
+  display: grid;
+  margin: auto 0;
+  justify-items: center;
+}
+#river_title h1 {
+  font-size: 64px;
+  color: #ffffff;
+  text-shadow: 2px 2px black;
+}
+.home_grid_rivers{
+  background-color: #0c4166;
+  margin: 0 auto;
+  max-width: 1200px;
+  max-height: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+.salmon-river-img {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: 100%;
+  height: 100%;
+}
+.salmon-msg {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.desolation-canyon-msg {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.gray-canyon-img {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  width: 100%;
+  height: 100%;
+}
+.grand-canyon-img {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  height: 100%;
+  width: 100%;
+}
+.grand-canyon-msg {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.salmon-msg,
+.desolation-canyon-msg,
+.grand-canyon-msg {
+  color: #ffffff;
+  text-shadow: 2px 2px black;
+}
+.salmon-msg p,
+.desolation-canyon-msg p,
+.grand-canyon-msg p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#rivers_footer {
+  background-color: #6f7364;
+  color: whitesmoke;
+  padding: 25px 50px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#rivers_footer a {
+  color: whitesmoke;
+  text-align: center;
+  color: #fcfbfb;
+  text-decoration: none;
+}
+#rivers_footer a:hover {
+  color: whitesmoke;
+}
+#rivers_footer p {
+  font-size: 1.2em;
+}
+#rivers_footer p a:hover {
+  text-decoration: underline;
+}
+#rivers_footer .social img {
+  padding-top: 15px;
+}
+/* End Page 2 Rivers CSS */
 footer {
   background-color: #6f7364;
   color: whitesmoke;
