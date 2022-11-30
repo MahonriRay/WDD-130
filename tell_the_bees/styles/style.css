@@ -109,7 +109,7 @@ nav a:hover {
   max-height: 100%;
   grid-column: 1/4;
   grid-row: 1/4;
-  rotate: 90deg;
+  transform: rotate(90deg);
   align-items: center;
 }
 .bottom-right-dl {
