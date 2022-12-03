@@ -230,6 +230,19 @@ a {
   background-color: #f1f1f1;
   text-align: center;
 }
+#feedback {
+  background-color: antiquewhite;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: .5em;
+  /* make this element invisible until we are ready for it */
+  display: none;      
+}
+.moveDown {
+  margin-top: 3em;
+}
 /* GUIDES PAGE */
 
 /* HOME GRID GUIDES */
@@ -286,19 +299,67 @@ a {
   grid-template-columns: repeat(15, 1fr);
   grid-template-rows: repeat(11, 1fr);
 }
+.top-left-dl-res {
+  object-fit: cover;
+  /* width: 100%; */
+  /* height: 100%; */
+  max-height: 100%;
+  min-width: 100%;
+  grid-column: 1/4;
+  grid-row: 1/6;
+  transform: rotate(90deg);
+  /* align-items: center;
+  justify-items: center; */
+  padding-left: 50px;
+  position: relative;
+  left: -113px;
+  bottom: -33px;
+}
+.bottom-right-dl-res {
+  /* object-fit: cover; */
+  /* height: 100%;
+  width: 100%; */
+  max-height: 100%;
+  min-width: 100%;
+  grid-column: 9/12;
+  grid-row: 8/11;
+  z-index: 1;
+  transform: rotate(120deg);
+  position: relative;
+  left: 255px;
+}
+.hgr-p1 a:link {
+  color: #ffffff;
+  background-color: transparent;
+  text-shadow: 1px 1px #292315;
+}
+.hgr-p1 a:visited {
+  color: #ffffff;
+  background-color: transparent;
+  text-shadow: 1px 1px #292315;
+}
 .hgr-p1 {
+  height: 100%;
+  width: 100%;
   grid-column: 9/15;
-  grid-row: 2/5;
+  grid-row: 1/5;
+  padding-top: 50px;
+  text-shadow: 1px 1px #ffffff;
 }
 .hgr-p2 {
+  height: 100%;
+  width: 100%;
   grid-column: 9/15;
   grid-row: 9/11;
+  z-index: 1;
+  text-shadow: 1px 1px #ffffff;
 }
 .beekeepers {
   grid-column: 2/8;
-  grid-row: 2/11;
+  grid-row: 1/11;
   height: 100%;
   width: 100%;
+  padding-top: 50px;
 }
 .beekeeper {
   grid-column: 9/15;
@@ -306,7 +367,25 @@ a {
   height: 100%;
   width: 100%;
 }
-
+.yt-video {
+  grid-column: 9/15;
+  grid-row: 6/9;
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+.flower_baseline {
+  height: 250px;
+  width: 100%;
+  grid-column: 1/9;
+  grid-row: 10/12;
+}
+.flower_baseline2 {
+  height: 250px;
+  width: 100%;
+  grid-column: 8/16;
+  grid-row: 10/12;
+}
 /* FOOTER */
 footer {
   color: var(--paragraph-color-on-color);
