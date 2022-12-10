@@ -47,7 +47,8 @@
                  <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
                </li>
                <li class="button">
-                 <button type="submit">Sign Up</button>
+                 <button type="submit" onclick="newFunction()" value="reset">Sign Up</button>
+                 <input type = "button" onclick = "newFunction()" value = "Reset" >
                </li>
              </ul>    
            </form>
@@ -74,6 +75,12 @@
             </div>
         </footer>
     </div>
+    <script>
+        function newFunction(){
+            var element = document.getElementById("feedback");
+           element.reset()
+        }
+    </script>
     <script>
         // get the feedback div element so we can do something with it.
         const feedbackElement = document.getElementById('feedback');
